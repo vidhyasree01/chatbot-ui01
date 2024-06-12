@@ -1,54 +1,24 @@
 {
   "compilerOptions": {
-<<<<<<< HEAD
-    "target": "ESNext",
-=======
     "target": "es5",
->>>>>>> source/legacy
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
-<<<<<<< HEAD
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-=======
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
->>>>>>> source/legacy
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-<<<<<<< HEAD
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-=======
     "types": ["vitest/globals"],
->>>>>>> source/legacy
     "paths": {
       "@/*": ["./*"]
     }
   },
-<<<<<<< HEAD
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx",
-    ".next/types/**/*.ts",
-    "./.next/types/**/*.ts",
-    "i18nConfig.js"
-  ],
-=======
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
->>>>>>> source/legacy
   "exclude": ["node_modules"]
 }
