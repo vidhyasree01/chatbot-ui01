@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "$schema": "https://json.schemastore.org/eslintrc",
   "root": true,
   "extends": [
@@ -22,4 +23,7 @@
       "parser": "@typescript-eslint/parser"
     }
   ]
+=======
+  "extends": "next/core-web-vitals"
+>>>>>>> source/legacy
 }
